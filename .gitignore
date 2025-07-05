@@ -1,0 +1,203 @@
+### Firebase ###
+.idea
+/node_modules/*
+/**/.firebaserc
+
+### Firebase Patch ###
+./fin/.runtimeconfig.json
+./fin/.firebase/
+
+### Flutter ###
+./fin/Flutter/Dart/Pub
+./fin/**/doc/api/
+./fin/.dart_tool/
+./fin/.flutter-plugins
+./fin/.flutter-plugins-dependencies
+./fin/.fvm/flutter_sdk
+./fin/.packages
+./fin/.pub-cache/
+./fin/.pub/
+./fin/build/
+./fin/coverage/
+./fin/lib/generated_plugin_registrant.dart
+./fin/pubspec.lock
+
+# Android related
+./fin/**/android/**/gradle-wrapper.jar
+./fin/**/android/.gradle
+./fin/**/android/captures/
+./fin/**/android/gradlew
+./fin/**/android/gradlew.bat
+./fin/**/android/key.properties
+./fin/**/android/local.properties
+./fin/**/android/**/GeneratedPluginRegistrant.java
+
+# iOS/XCode related
+./fin/**/ios/**/*.mode1v3
+./fin/**/ios/**/*.mode2v3
+./fin/**/ios/**/*.moved-aside
+./fin/**/ios/**/*.pbxuser
+./fin/**/ios/**/*.perspectivev3
+./fin/**/ios/**/*sync/
+./fin/**/ios/**/.sconsign.dblite
+./fin/**/ios/**/.tags*
+./fin/**/ios/**/.vagrant/
+./fin/**/ios/**/DerivedData/
+./fin/**/ios/**/Icon?
+./fin/**/ios/**/Pods/
+./fin/**/ios/**/.symlinks/
+./fin/**/ios/**/profile
+./fin/**/ios/**/xcuserdata
+./fin/**/ios/.generated/
+./fin/**/ios/Flutter/.last_build_id
+./fin/**/ios/Flutter/App.framework
+./fin/**/ios/Flutter/Flutter.framework
+./fin/**/ios/Flutter/Flutter.podspec
+./fin/**/ios/Flutter/Generated.xcconfig
+./fin/**/ios/Flutter/app.flx
+./fin/**/ios/Flutter/app.zip
+./fin/**/ios/Flutter/flutter_assets/
+./fin/**/ios/Flutter/flutter_export_environment.sh
+./fin/**/ios/ServiceDefinitions.json
+./fin/**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Exceptions to above rules.
+!**/ios/**/default.mode1v3
+!**/ios/**/default.mode2v3
+!**/ios/**/default.pbxuser
+!**/ios/**/default.perspectivev3
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+./stream/*.py[cod]
+./stream/*$py.class
+
+# C extensions
+./stream/*.so
+
+# Distribution / packaging
+./stream/.Python
+./stream/develop-eggs/
+./stream/dist/
+./stream/downloads/
+./stream/eggs/
+./stream/.eggs/
+./stream/lib/
+./stream/lib64/
+./stream/parts/
+./stream/sdist/
+./stream/var/
+./stream/wheels/
+./stream/share/python-wheels/
+./stream/*.egg-info/
+./stream/.installed.cfg
+./stream/*.egg
+./stream/MANIFEST
+
+# PyInstaller
+./stream/*.manifest
+./stream/*.spec
+
+# Installer logs
+./stream/pip-log.txt
+./stream/pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+./stream/htmlcov/
+./stream/.tox/
+./stream/.nox/
+./stream/.coverage
+./stream/.coverage.*
+./stream/.cache
+./stream/nosetests.xml
+./stream/coverage.xml
+./stream/*.cover
+./stream/*.py,cover
+./stream/.hypothesis/
+./stream/.pytest_cache/
+./stream/cover/
+
+# Translations
+*.mo
+*.pot
+
+# Scrapy stuff:
+./stream/.scrapy
+
+# Sphinx documentation
+./stream/docs/_build/
+
+# PyBuilder
+./stream/.pybuilder/
+./stream/target/
+
+# Jupyter Notebook
+./stream/.ipynb_checkpoints
+
+# IPython
+./stream/profile_default/
+./stream/ipython_config.py
+
+./stream/pyenv
+./stream/.python-version
+
+./stream/pipenv
+./stream/Pipfile.lock
+./stream/poetry
+./stream/poetry.lock
+
+./stream/pdm
+./stream/pdm.lock
+./stream/.pdm.toml
+
+
+./stream/__pypackages__/
+
+./stream/celerybeat-schedule
+./stream/celerybeat.pid
+
+
+./stream/*.sage.py
+
+# Environments
+./stream/.env
+./stream/.venv
+./stream/env/
+./stream/venv/
+./stream/ENV/
+./stream/env.bak/
+./stream/venv.bak/
+
+# Spyder project settings
+./stream/.spyderproject
+./stream/.spyproject
+
+# Rope project settings
+./stream/.ropeproject
+
+# mkdocs documentation
+./stream//site
+
+# mypy
+./stream/.mypy_cache/
+./stream/.dmypy.json
+./stream/dmypy.json
+
+# Pyre type checker
+./stream/.pyre/
+
+# pytype static type analyzer
+./stream/.pytype/
+
+# Cython debug symbols
+./stream/cython_debug/
+
+./stream/poetry.toml
+
+# ruff
+./stream/.ruff_cache/
+
+# LSP config files
+./stream/pyrightconfig.json
